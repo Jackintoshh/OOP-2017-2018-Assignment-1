@@ -13,6 +13,6 @@ void draw()
 {
   background(bg);
   cursor.display();
-  fill(165, 200, 4);
-  line(100, 100, 200, 200);
+  //fill(165, 200, 4);
+  //line(100, 100, 200, 200);
 }
