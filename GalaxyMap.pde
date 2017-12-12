@@ -12,7 +12,7 @@ void setup()
 void draw()
 {
   background(bg);
-  cursor.display();
+  cursor.Display();
   //fill(165, 200, 4);
   //line(100, 100, 200, 200);
 }

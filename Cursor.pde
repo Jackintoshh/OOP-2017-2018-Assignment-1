@@ -13,7 +13,7 @@ Cursor(color tempc, float tempx, float tempy)
   ypos = tempy;
 }
 
-void display()
+void Display()
 {
   //crosshair
   xpos = mouseX;
