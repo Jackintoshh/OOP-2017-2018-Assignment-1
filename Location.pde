@@ -4,14 +4,14 @@ class Location
   color col;
   float xpos;
   float ypos;
+  String name;
 
-
-Location(color tempc, float tempx, float tempy)
+Location(color tempc, float tempx, float tempy, String tempname)
 {
   col = tempc;
   xpos = tempx;
   ypos = tempy;
-  
+  name = tempname;
 }
 
 void Display()
@@ -30,6 +30,13 @@ void Hover()
     strokeWeight(10);
     noFill();
     ellipse(xpos, ypos, 50, 50);
+    stroke(19,177,238);
+    strokeWeight(4);
+    line(xpos, ypos, (xpos + 60), (ypos - 40));
+    fill(7, 94, 126);
+    rect((xpos + 60), (ypos - 40), 250, 100);
+    //fill(255);
+    //text
   }
 }
 
