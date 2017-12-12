@@ -1,4 +1,5 @@
 PImage bg;
+PFont box;
 Cursor cursor;
 Location loc1;
 Location loc2;
@@ -9,6 +10,7 @@ void setup()
  // size(1920, 1080);
   fullScreen();
   bg = loadImage("milkyway1.jpg");
+  box = createFont("futuristic.ttf", 40);
   cursor = new Cursor(color(255,165,0), mouseX, mouseY);
   loc1 = new Location(color(19,177,238), 238, 195, "Citadel");
   loc2 = new Location(color(19,177,238), 88, 603, "Tortuga");
@@ -23,6 +25,4 @@ void draw()
   cursor.Display();
   loc1.Hover();
   loc2.Hover();
-  //fill(165, 200, 4);
-  //line(100, 100, 200, 200);
 }

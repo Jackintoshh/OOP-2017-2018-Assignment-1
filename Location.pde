@@ -35,8 +35,10 @@ void Hover()
     line(xpos, ypos, (xpos + 60), (ypos - 40));
     fill(7, 94, 126);
     rect((xpos + 60), (ypos - 40), 250, 100);
-    //fill(255);
-    //text
+    fill(255);
+    textFont(box);
+    textSize(45);
+    text(name, (xpos + 80), (ypos + 32));
   }
 }
 
