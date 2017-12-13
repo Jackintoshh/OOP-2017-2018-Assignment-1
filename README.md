@@ -6,3 +6,4 @@ In the game, the Galaxy Map is used to traverse the universe and is also used as
 While I could not implement the whole 'traversal' part of the galaxy map as it's not part of an overall game, I did try and recreate the feedback that the 
 map gives you in-game with the various information tidbits about each planet.
 
+[Video Link](https://youtu.be/Z4kqLvE1ETk)
